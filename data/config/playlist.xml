@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<playlist>
+	<song display="Ghosts 6">./data/music/ghost6.ogg</song>
+	<song display="Ghosts 03">./data/music/ghost03.ogg</song>
+	<song display="Ghosts 07">./data/music/ghost07.ogg</song>
+	<song display="Ghosts 14">./data/music/ghost14.ogg</song>
+	<song display="Ghosts 15">./data/music/ghost15.ogg</song>
+	<song display="Ghosts 16">./data/music/ghost16.ogg</song>
+	<song display="Ghosts 19">./data/music/ghost19.ogg</song>
+	<song display="Ghosts 23">./data/music/ghost23.ogg</song>
+</playlist>
+

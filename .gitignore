@@ -1,0 +1,12 @@
+
+*.[do]
+*.mp3
+*.ogg
+*.tgz
+*.bmp
+*.log
+*.png
+*.dll
+*.exe
+*swp
+.*.*swp

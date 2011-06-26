@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<level>
+	<bar>
+		<portal x="550" y="86"/>
+		<portal x="0" y="86"/>
+	</bar>
+	<bar>
+		<portal x="0" y="206"/>
+		<portal x="400" y="206"/>
+	</bar>
+	<bar>
+		<portal x="470" y="329"/>
+		<portal x="0" y="329"/>
+	</bar>
+	<bar>
+		<portal x="0" y="448"/>
+		<portal x="540" y="448"/>
+	</bar>
+	<background>./data/gfx/level/first/floor.png</background>
+	<tiles>
+		<tile>./data/gfx/level/first/tile01.png</tile>
+		<tile>./data/gfx/level/first/tile02.png</tile>
+		<tile>./data/gfx/level/first/tile03.png</tile>
+		<tile>./data/gfx/level/first/tile04.png</tile>
+		<tile>./data/gfx/level/first/tile05.png</tile>
+		<tile>./data/gfx/level/first/tile06.png</tile>
+		<tile>./data/gfx/level/first/tile07.png</tile>
+	</tiles>
+	<enemies>
+		<enemy>./data/gfx/monsters/ghost01.png</enemy>
+		<enemy>./data/gfx/monsters/ghost02.png</enemy>
+		<enemy>./data/gfx/monsters/ghost03.png</enemy>
+		<enemy>./data/gfx/monsters/ghost04.png</enemy>
+		<enemy>./data/gfx/monsters/goblin01.png</enemy>
+		<enemy>./data/gfx/monsters/goblin02.png</enemy>
+		<enemy>./data/gfx/monsters/goblin03.png</enemy>
+	</enemies>
+	<respawn_time time="6000"/>
+	<enemy_delay time="1000"/>
+	<enemy_speed time="1000"/>
+	<player_delay time="1000"/>
+	<enemy_delay time="1000"/>
+	<enemy_delay time="1000"/>
+	<enemy_delay time="1000"/>
+	<enemy_delay time="1000"/>
+
+</level>
+
+

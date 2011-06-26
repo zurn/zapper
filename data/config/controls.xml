@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<controls>
+    <!--Keyboard mappings-->
+    <keys>
+        <accept value="32" />
+        <accept_d1 value="285" />
+        <accept_d2 value="286" />
+        <cancel value="102" />
+        <up value="107" />
+        <up_d value="289" />
+        <down value="106" />
+        <down_d value="274" />
+        <left value="104" />
+        <left_d value="288" />
+        <right value="108" />
+        <right_d value="287" />
+        <upleft value="121" />
+        <upright value="117" />
+        <downleft value="98" />
+        <downright value="110" />
+        <attack value="97" />
+        <inventory value="115" />
+        <interact value="100" />
+        <options value="119" />
+        <quit value="293" />
+        <run value="304" />
+        <db_quit value="282" />
+        <db_shot value="293" />
+        <dbg1 value="283" />
+        <dbg2 value="284" />
+    </keys>
+</controls>
