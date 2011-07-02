@@ -1,3 +1,6 @@
+
+Zapper - A Tapper Clone
+
 Copyright (c) 2011 Jacob Sadow-Reinshagen
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -17,6 +20,41 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+
+How to play:
+	Shoot projectils at the enemies to push them back.  
+	If you push them off the level you will earn points.
+	If you shoot a projectile and it misses all enemies you lose a life.
+	If an enemy makes it to your side of the board you lose a life.
+	Clear all enemies to compelete the level.
+
+Default controls:
+
+	Arrow keys:
+		Move the player in the appropriate direction.
+		Move the menu cursor up or down.
+
+	Space bar:
+		Selects highlighted menu option.
+		Shoots projectile.
+
+	Escape:
+		Pause game.
+
+
+Music:
+
+	In the file  data/config/playlist.xml you can place a list of files to be played while the game is running.
+	The game can play mp3 and ogg files.
+
+	Use this format.
+
+	<?xml version="1.0" ?>
+	<playlist>
+		<song>./data/music/your_song.ogg</song>
+		<song>./data/music/your_song.mp3</song>
+	</playlist>
+
 
 
 libraries used
