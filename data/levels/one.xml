@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<level>
+	<bar>
+		<portal x="290" y="86"/>
+		<portal x="0" y="86"/>
+	</bar>
+	<bar>
+		<portal x="400" y="206"/>
+		<portal x="0" y="206"/>
+	</bar>
+	<bar>
+		<portal x="470" y="329"/>
+		<portal x="0" y="329"/>
+	</bar>
+	<bar>
+		<portal x="540" y="448"/>
+		<portal x="0" y="448"/>
+	</bar>
+	<background>./data/gfx/level/four/floor.png</background>
+	<tiles>
+		<tile>./data/gfx/level/four/tile01.png</tile>
+		<tile>./data/gfx/level/four/tile02.png</tile>
+		<tile>./data/gfx/level/four/tile03.png</tile>
+		<tile>./data/gfx/level/four/tile04.png</tile>
+		<tile>./data/gfx/level/four/tile05.png</tile>
+		<tile>./data/gfx/level/four/tile06.png</tile>
+		<tile>./data/gfx/level/four/tile07.png</tile>
+	</tiles>
+	<enemies>
+		<enemy>./data/gfx/monsters/spider.png</enemy>
+		<enemy>./data/gfx/monsters/sheep.png</enemy>
+		<enemy>./data/gfx/monsters/snake.png</enemy>
+		<enemy>./data/gfx/monsters/blob.png</enemy>
+		<enemy>./data/gfx/monsters/bat.png</enemy>
+		<enemy>./data/gfx/monsters/kestral.png</enemy>
+	</enemies>
+	<respawn_time time="8000"/>
+	<enemy_delay time="1000"/>
+	<enemy_speed time="1000"/>
+	<player_delay time="1000"/>
+	<enemy_delay time="1000"/>
+	<enemy_delay time="1000"/>
+	<enemy_delay time="1000"/>
+	<enemy_delay time="1000"/>
+
+</level>
+
+
