@@ -5,3 +5,6 @@
 *.tgz
 *.bmp
 *.log
+*.*.swp
+zapper
+/objs

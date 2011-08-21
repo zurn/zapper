@@ -9,9 +9,11 @@ death_by_enemy::death_by_enemy(game * g)
 	count = 0;
 }
 
-death_by_enemy::~death_by_enemy()
-{
-}
+death_by_enemy::~death_by_enemy() { }
+
+void death_by_enemy::pause() { } 
+
+void death_by_enemy::unpause() { }
 
 void death_by_enemy::draw()
 {
@@ -23,15 +25,6 @@ void death_by_enemy::draw()
 
 	gfx::blendMode();
 	gfx::color(1,1,1);
-
-
-	char buf[256];
-	buf[255] = '\0';
-//	snprintf(buf, sizeof(buf), "Lives: %i", fsm->dude->lives);
-//	gfx::loadFont("./data/fonts/mono.ttf", 16)->print(buf, 0, 0);
-//
-//	snprintf(buf, sizeof(buf), "Score: %i", fsm->dude->score);
-//	gfx::loadFont("./data/fonts/mono.ttf", 16)->print(buf, 100, 0);
 
 	font * big = gfx::loadFont("./data/fonts/bit.ttf", 22);
 	const char * text = fsm->dude->death_message.c_str();
@@ -59,14 +52,6 @@ void death_by_enemy::exit()
 {
 	fsm->enemies->max_monsters = 3;
 	fsm->dude->has_lost = true;
-}
-
-void death_by_enemy::pause()
-{
-}
-
-void death_by_enemy::unpause()
-{
 }
 
 void death_by_enemy::update()

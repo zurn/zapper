@@ -1,13 +1,11 @@
 
-#include "zlibengn.h"
 #include "audio.h"
 #include "gfx.h"
 #include "input.h"
 #include "settings.h"
 #include "timer.h"
-#include "sprite.h"
 #include "game.h"
-#include "thing.cpp"
+
 //main game loop
 int main(int argc, char * argv[])
 {
@@ -18,19 +16,6 @@ int main(int argc, char * argv[])
 
 	input::init();
 	audio::init();
-//	audio::setMusicVol(0);
-//	audio::setSFXvol(0);
-	
-//	TiXmlDocument doc("./data/levels/test.xml");
-//	doc.LoadFile();
-	glPixelZoom(2.0, 2.0);
-
-//	dump_to_stdout( doc.FirstChildElement());
-
-//	ZlibEngine z;
-//	z.compress( "data/controls.xml","controls.xml.z");
-//	z.decompress( "controls.xml.z", "thing.xml");
-
 
 	timer fps(60);
 
@@ -41,9 +26,7 @@ int main(int argc, char * argv[])
 	input::keys[KEY_DOWN]->repeat = 0;
 	input::keys[KEY_ACCEPT]->delay = -1;
 	input::keys[KEY_ACCEPT]->repeat = 0;
-//	input::print();
 
-//	audio::song_done();
 	while(!input::quit) {
 		
 		input::poll();

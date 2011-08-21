@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
 <settings>
     <!--Settings configuration-->
-    <volume sfx="0.1" mus="0.05" />
+    <volume sfx="0.2" mus="0.5" />
 </settings>

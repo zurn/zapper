@@ -67,7 +67,6 @@ void ply_celebrate::update()
 		spin = 0.0;
 	}
 
-	#define PI_OVER_180 0.01745329F
 	Vector vec;
 	spin *=360;
 	vec.x = -sin(spin*PI_OVER_180)*cos(spin*PI_OVER_180);

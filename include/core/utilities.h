@@ -18,18 +18,6 @@ struct ltstr
 #define MIN(X, Y) ( ((X) < (Y)) ? (X) : (Y) )
 
 
-//static const char * intToAsci(int value)
-//{
-//	char str[6];
-
-//	sprintf(str,"%d", value);
-
-//	return str;
-//};
-
-
-
-
 
 #endif /* UTILITIES_H */
 
